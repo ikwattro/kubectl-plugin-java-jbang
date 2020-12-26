@@ -19,6 +19,7 @@ import java.util.stream.Collectors;
         description = "list pods made with jbang")
 class lp implements Callable<Integer> {
 
+    // https://www.fileformat.info/info/unicode/char/search.htm?
     private static final String CHECK_MARK = "\u2705";
     private static final String FIRE = "\uD83D\uDD25";
 
